@@ -1,23 +1,13 @@
-const resultado = document.getElementById("resultado");
-
-var nome = "Alessandra";
-var sobrenome = "Santos";
-var nomeCompleto = `${nome}  ${sobrenome}`;
-var idade = window.prompt('Digite a sua idade');
-
-if (isNaN(idade))
+function executar()
 {
-   resultado.innerHTML = 'não é número';
+  const resultado = document.getElementById("resultado");
+
+  var nome = "Alessandra";
+  var sobrenome = "Santos";
+  var nomeCompleto = `${nome}  ${sobrenome}`;
+  
+  
+  let totalSoma = somar(4,5);
+ alert(totalSoma);
+
 }
-else
-{ 
-  if(idade >= 18)
-  {
-    resultado.innerHTML = "O usuário" + nomeCompleto + " é adulto";
-   
-  }
-  else
-  {
-    resultado.innerHTML = "O usuário" + nomeCompleto + " é menor de idade";
-  }
-} 
