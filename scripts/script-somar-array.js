@@ -1,4 +1,4 @@
-somarArray.addEventListener('click', function(){
+btnSomarArray.addEventListener('click', function(){
    
     const resultado = document.getElementById("resultado");
     

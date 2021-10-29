@@ -7,8 +7,8 @@ function somarArray(elementosArray)
 {
     let total = 0;
 
-    elementosArray.forEach(element => {
-        total += element;
+    elementosArray.forEach(e => {
+        total += e;
     });
     return total;
 }
